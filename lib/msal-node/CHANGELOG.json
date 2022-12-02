@@ -2,6 +2,27 @@
   "name": "@azure/msal-node",
   "entries": [
     {
+      "date": "Fri, 02 Dec 2022 08:26:28 GMT",
+      "tag": "@azure/msal-node_v1.14.5",
+      "version": "1.14.5",
+      "comments": {
+        "patch": [
+          {
+            "author": "v-derisen@microsoft.com",
+            "package": "@azure/msal-node",
+            "commit": "125c3e55e87feef31573a0d1567549cfc423ee59",
+            "comment": "Serialize/deserialize access token userAssertionHash property to fix cache persistence issue in OBO flow #5398"
+          },
+          {
+            "author": "beachball",
+            "package": "@azure/msal-node",
+            "comment": "Bump @azure/msal-common to v9.0.1",
+            "commit": "ded14e9174fc5a1d8d5a5d5e87243d8213eb6794"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 21 Nov 2022 19:14:45 GMT",
       "tag": "@azure/msal-node_v1.14.4",
       "version": "1.14.4",

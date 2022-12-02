@@ -1,8 +1,16 @@
 # Change Log - @azure/msal-common
 
-This log was last generated on Mon, 21 Nov 2022 19:14:45 GMT and should not be manually modified.
+This log was last generated on Fri, 02 Dec 2022 08:26:28 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 9.0.1
+
+Fri, 02 Dec 2022 08:26:28 GMT
+
+### Patches
+
+- Fixed Typo in Authority Logs #5430 (rginsburg@microsoft.com)
 
 ## 9.0.0
 
