@@ -1,0 +1,158 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "audit": {
+      "name": "audit",
+      "command": "npm run audit",
+      "runAtStart": false
+    },
+    "audit:prod": {
+      "name": "audit:prod",
+      "command": "npm run audit:prod",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "npm run postinstall",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "build:extensions": {
+      "name": "build:extensions",
+      "command": "npm run build:extensions",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "test:coverage": {
+      "name": "test:coverage",
+      "command": "npm run test:coverage",
+      "runAtStart": false
+    },
+    "test:e2e": {
+      "name": "test:e2e",
+      "command": "npm run test:e2e",
+      "runAtStart": false
+    },
+    "doc": {
+      "name": "doc",
+      "command": "npm run doc",
+      "runAtStart": false
+    },
+    "doc:generate": {
+      "name": "doc:generate",
+      "command": "npm run doc:generate",
+      "runAtStart": false
+    },
+    "doc:deploy": {
+      "name": "doc:deploy",
+      "command": "npm run doc:deploy",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "lint:angular": {
+      "name": "lint:angular",
+      "command": "npm run lint:angular",
+      "runAtStart": false
+    },
+    "lint:browser": {
+      "name": "lint:browser",
+      "command": "npm run lint:browser",
+      "runAtStart": false
+    },
+    "lint:common": {
+      "name": "lint:common",
+      "command": "npm run lint:common",
+      "runAtStart": false
+    },
+    "lint:core": {
+      "name": "lint:core",
+      "command": "npm run lint:core",
+      "runAtStart": false
+    },
+    "lint:node": {
+      "name": "lint:node",
+      "command": "npm run lint:node",
+      "runAtStart": false
+    },
+    "lint:node:extensions": {
+      "name": "lint:node:extensions",
+      "command": "npm run lint:node:extensions",
+      "runAtStart": false
+    },
+    "lint:node:token": {
+      "name": "lint:node:token",
+      "command": "npm run lint:node:token",
+      "runAtStart": false
+    },
+    "lint:react": {
+      "name": "lint:react",
+      "command": "npm run lint:react",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "npm run clean",
+      "runAtStart": false
+    },
+    "clean:coverage": {
+      "name": "clean:coverage",
+      "command": "npm run clean:coverage",
+      "runAtStart": false
+    },
+    "beachball:check": {
+      "name": "beachball:check",
+      "command": "npm run beachball:check",
+      "runAtStart": false
+    },
+    "beachball:change": {
+      "name": "beachball:change",
+      "command": "npm run beachball:change",
+      "runAtStart": false
+    },
+    "beachball:bump": {
+      "name": "beachball:bump",
+      "command": "npm run beachball:bump",
+      "runAtStart": false
+    },
+    "beachball:bumpDeps": {
+      "name": "beachball:bumpDeps",
+      "command": "npm run beachball:bumpDeps",
+      "runAtStart": false
+    },
+    "beachball:publish": {
+      "name": "beachball:publish",
+      "command": "npm run beachball:publish",
+      "runAtStart": false
+    },
+    "beachball:release": {
+      "name": "beachball:release",
+      "command": "npm run beachball:release",
+      "runAtStart": false
+    },
+    "npm install -g npm@9.1.3": {
+      "name": "npm install -g npm@9.1.3",
+      "command": "npm install -g npm@9.1.3",
+      "runAtStart": true
+    }
+  }
+}
